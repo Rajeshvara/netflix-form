@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body {
+            background: url(/netflix.jpg);
+        }
+
+        .regform {
+            width: 380px;
+            height: 350px;
+            background-color: rgba(0, 0, 0, 0.678);
+            margin: 150px auto;
+            padding: 10px 20px 30px;
+            border-radius: 5px;
+        }
+
+        input {
+            width: 100%;
+
+            font-size: 1.5em;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 25px;
+            background-color: gray;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        input::placeholder {
+            color: white;
+        }
+
+        button {
+            background-color: red;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 1.5em;
+            margin-top: 30px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <img style="width: 250px; margin-top: 30px;" src="/Logonetflix.png" alt="logo">
+    <div class="regform">
+        <h1 style="color: white;">Sign In</h1>
+        <form action="">
+            <div class="input">
+                <input type="email" id="email" name="email" placeholder="Email or phone number">
+            </div>
+            <div class="input">
+                <input type="password" id="pwd" name="pwd" placeholder="Password">
+            </div>
+
+            <div class="button">
+                <button type="submit">Sign in</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
